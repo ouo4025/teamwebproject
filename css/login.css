@@ -1,0 +1,68 @@
+@charset "utf-8";
+:root {
+  --main-color: #fdc3ef;
+  --sub-color: #c2588d;
+}
+
+#wrap{
+  padding: 250px;
+}
+table {
+  width: 280px;
+  height: 250px;
+  margin: auto;
+  font-size: 15px;
+}
+input[type="text"], input[type="password"] {
+  width: 250px;
+  height: 32px;
+  font-size: 15px;
+  border: 0;
+  border-radius: 15px;
+  outline: none;
+  padding-left: 10px;
+  background-color: rgb(233,233,233);
+}
+.btn {
+  cursor: pointer;
+  width: 263px;
+  height: 32px;
+  font-size: 15px;
+  border: 0;
+  border-radius: 15px;
+  outline: none;
+  background-color: var(--main-color);
+  padding-bottom: 30px;
+}
+.btn:active {
+  width: 263px;
+  height: 32px;
+  font-size: 15px;
+  border: 0;
+  border-radius: 15px;
+  outline: none;
+  padding-left: 10px;
+  background-color: var(--sub-color)
+}
+.btn1 {
+  cursor: pointer;
+  width: 263px;
+  height: 32px;
+  font-size: 15px;
+  border: 0;
+  border-radius: 15px;
+  outline: none;
+  padding-left: 10px;
+  background-color: #c2588d;
+  padding-bottom: 30px;
+}
+.btn1:active {
+  width: 263px;
+  height: 32px;
+  font-size: 15px;
+  border: 0;
+  border-radius: 15px;
+  outline: none;
+  padding-left: 10px;
+  background-color: #fdc3ef;
+}

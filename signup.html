@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>회원가입</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/signup.css" />
+  </head>
+  <body>
+    <div id="wrap">
+      <div class="inner">
+        <form>
+          <h1>회원가입</h1>
+
+          <fieldset class="name">
+            <h3>이름*</h3>
+            <input type="text" required />
+          </fieldset>
+          <!-- .name -->
+
+          <fieldset class="nickname">
+            <h3>별명*</h3>
+            <input type="text" required />
+          </fieldset>
+          <!-- .nickname -->
+
+          <fieldset class="e-mail">
+            <h3>이메일</h3>
+            <div class="element">
+              <input type="text" required />
+              <span>@</span>
+              <select>
+                <option selected disabled>선택</option>
+                <option>gmail.com</option>
+                <option>naver.com</option>
+                <option>daum.net</option>
+                <option>nate.com</option>
+                <option>hanmail.com</option>
+              </select>
+            </div>
+          </fieldset>
+          <!-- .e-mail -->
+
+          <fieldset class="address">
+            <h3>주소</h3>
+            <input type="text" required />
+          </fieldset>
+          <!-- .address -->
+
+          <fieldset class="number">
+            <h3>휴대폰 번호</h3>
+            <input type="text" placeholder="숫자만 입력해주세요." />
+          </fieldset>
+
+          <fieldset class="gender">
+            <h3>성별</h3>
+            <select>
+              <option selected>선택 안 함</option>
+              <option>남성</option>
+              <option>여성</option>
+            </select>
+          </fieldset>
+          <!-- .gender -->
+
+          <div class="login-page">
+            <a href="index.html" onclick="alert('회원가입이 완료되었습니다.')"
+              >가입하고 로그인 페이지로 이동</a
+            >
+          </div>
+          <!-- .login-page -->
+        </form>
+      </div>
+      <!-- .inner -->
+    </div>
+    <!-- #wrap -->
+  </body>
+</html>

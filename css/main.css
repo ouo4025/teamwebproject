@@ -1,0 +1,103 @@
+@charset "utf-8";
+
+:root{
+  --main-color: #fdc3ef;
+  --sub-color: #c2588d;
+  --main-font: "Jua", sans-serif;
+}
+
+
+.main-inner{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.main-inner .title{
+  text-align: center;
+  padding: 100px 0;
+  font-family: var(--main-font);
+
+}
+
+.main-inner .title h1{
+  font-size: 5rem;
+  color: #c2588d;
+}
+
+.main-inner .title h2{
+  font-size: 3.5rem;
+  color: #88375f;
+}
+
+.main-introduce{
+  padding-bottom: 300px;
+}
+
+.main-introduce ul{
+  display: flex;
+  justify-content: space-between;
+}
+.main-introduce ul li{
+  width: calc((100% - 40px) / 3);
+  padding: 30px;
+  border-radius: 30px;
+  border: var(--main-color) 5px solid;
+  text-align: center;
+  font-family: var(--main-font);
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.main-introduce ul li:hover{
+  background-color: var(--main-color);
+}
+
+.main-introduce ul li .team-img img{
+  width: 100%;
+}
+
+
+.main-introduce ul li .team-img{
+  padding: 20px 0;
+}
+
+.main-introduce ul li:nth-child(1) .team-img{
+  padding: 40px 0;
+}
+
+.main-introduce ul li .team-name{
+  padding: 10px 0;
+  font-size: 2.5rem;
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 700;
+}
+
+.main-introduce ul li .team-part{
+  font-size: 1.9rem;
+  color: var(--sub-color);
+  font-weight: 700;;
+}
+
+.main-introduce ul li .team-hobby{
+  padding: 10px 20px;
+  margin: 10px 0;
+  font-size: 1.6rem;
+  color: #fff;
+  background-color: var(--sub-color);
+  border-radius: 30px;
+  display: inline-block;
+  font-weight: 700;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.main-introduce ul li .team-hobby:hover{
+  background-color: #fff;
+  color: var(--sub-color);
+}
+
+.main-introduce ul li .team-instar{
+  font-size: 1.5rem;
+  color: var(--sub-color);
+  font-weight: 700;;
+}

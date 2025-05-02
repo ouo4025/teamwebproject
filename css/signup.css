@@ -1,0 +1,96 @@
+@charset "utf-8";
+
+:root {
+  --main-color: #fdc3ef;
+  --sub-color: #c2588d;
+  --main-font: "Jua", sans-serif;
+}
+
+.inner {
+  max-width: 800px;
+  margin: 0 auto;
+  box-shadow: 0 0 5px #ccc;
+}
+
+form {
+  margin: 50px 0;
+  padding: 50px 100px;
+}
+
+h1 {
+  font-size: 6rem;
+  color: var(--sub-color);
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+/* fieldset 공통 */
+input {
+  border: 1px solid var(--main-color);
+  display: block;
+  width: 100%;
+  padding: 10px;
+}
+input:focus {
+  border: 1px solid var(--sub-color);
+}
+select {
+  border: 1px solid var(--main-color);
+  display: block;
+  padding: 10px;
+}
+select:focus {
+  border: 1px solid var(--sub-color);
+}
+
+fieldset {
+  margin-bottom: 20px;
+}
+fieldset h3 {
+  color: #555;
+  margin-bottom: 10px;
+  font-size: 2rem;
+}
+
+/* e-mail */
+.e-mail .element {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.e-mail .element input {
+  width: 47%;
+}
+.e-mail .element span {
+  display: block;
+}
+.e-mail .element select {
+  width: 47%;
+}
+
+/* gender */
+.gender {
+  margin-bottom: 50px;
+}
+select {
+  border: 1px solid var(--main-color);
+  display: block;
+}
+
+/* sign up button */
+.login-page a {
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  background-color: var(--main-color);
+  width: 250px;
+  padding: 10px;
+  color: #555;
+  font-weight: 700;
+  border-radius: 30px;
+  transition: all 0.5s;
+}
+.login-page:hover a {
+  background-color: var(--sub-color);
+  color: #fff;
+}
