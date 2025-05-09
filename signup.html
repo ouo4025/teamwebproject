@@ -10,23 +10,23 @@
   <body>
     <div id="wrap">
       <div class="inner">
-        <form>
+        <form action="index.html">
           <h1>회원가입</h1>
 
           <fieldset class="name">
-            <h3>이름*</h3>
+            <h3>이름 *</h3>
             <input type="text" required />
           </fieldset>
           <!-- .name -->
 
           <fieldset class="nickname">
-            <h3>별명*</h3>
+            <h3>별명 *</h3>
             <input type="text" required />
           </fieldset>
           <!-- .nickname -->
 
           <fieldset class="e-mail">
-            <h3>이메일</h3>
+            <h3>이메일 *</h3>
             <div class="element">
               <input type="text" required />
               <span>@</span>
@@ -44,7 +44,7 @@
           <!-- .e-mail -->
 
           <fieldset class="address">
-            <h3>주소</h3>
+            <h3>주소 *</h3>
             <input type="text" required />
           </fieldset>
           <!-- .address -->
@@ -64,11 +64,7 @@
           </fieldset>
           <!-- .gender -->
 
-          <div class="login-page">
-            <a href="index.html" onclick="alert('회원가입이 완료되었습니다.')"
-              >가입하고 로그인 페이지로 이동</a
-            >
-          </div>
+          <input type="submit" value="가입하고 로그인 페이지로 이동" />
           <!-- .login-page -->
         </form>
       </div>
