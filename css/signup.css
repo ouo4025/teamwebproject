@@ -8,8 +8,9 @@
 
 .inner {
   max-width: 800px;
-  margin: 0 auto;
-  box-shadow: 0 0 5px #ccc;
+  margin: 100px auto;
+  border-radius: 30px;
+  border: var(--main-color) 5px solid;
 }
 
 form {
@@ -26,21 +27,23 @@ h1 {
 
 /* fieldset 공통 */
 input {
-  border: 1px solid var(--main-color);
+  border: 2px solid var(--main-color);
   display: block;
   width: 100%;
   padding: 10px;
+  border-radius: 30px;
 }
 input:focus {
-  border: 1px solid var(--sub-color);
+  border: 2px solid var(--sub-color);
 }
 select {
-  border: 1px solid var(--main-color);
+  border: 2px solid var(--main-color);
   display: block;
   padding: 10px;
+  border-radius: 30px;
 }
 select:focus {
-  border: 1px solid var(--sub-color);
+  border: 2px solid var(--sub-color);
 }
 
 fieldset {
@@ -72,13 +75,9 @@ fieldset h3 {
 .gender {
   margin-bottom: 50px;
 }
-select {
-  border: 1px solid var(--main-color);
-  display: block;
-}
 
 /* sign up button */
-.login-page a {
+input[type="submit"] {
   margin: 0 auto;
   display: block;
   text-align: center;
@@ -89,8 +88,10 @@ select {
   font-weight: 700;
   border-radius: 30px;
   transition: all 0.5s;
+  cursor: pointer;
 }
-.login-page:hover a {
+input[type="submit"] {
   background-color: var(--sub-color);
   color: #fff;
+  border: 2px solid var(--sub-color);
 }
